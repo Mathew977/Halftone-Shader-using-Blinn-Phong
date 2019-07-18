@@ -1,0 +1,12 @@
+Local installation:
+
+copy .h files to GLSL_Template/GL folder
+
+copy .lib files to GLSL_Template/ folder
+
+copy .dll files to GLSL_Template/Debug folder
+
+change the following #includes in stdafx.h from system files to local files as follows:
+
+#include "GL/glew.h"
+#include "GL/glut.h"
